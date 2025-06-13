@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter-Programowania</title>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<nav>
+    <h1 id="title">Jeśli chcesz dostawać nasz programistyczny newsletter podaj swoje dane</h1>
+</nav>
+  <main>
+    <aside>
+      <form action="newsletter.php" method="post">
+        <h4>Dane osobowe:</h4>
+        
+        <p>Imie: <input type="text" name="imie"></p>
+        <p>Nazwisko: <input type="text" name="nazwisko"></p>
+        <p>Email: <input type="email" name="email"></p>
+
+        <h4>Płeć:</h4> <br>
+
+        <p>Kobieta<input type="radio" name="plec" value="Kobieta"></p>
+        <p>Mężczyzna<input type="radio" name="plec" value="Mezczyzna"></p>
+        <p>Inna<input type="radio" name="plec" value="Inna"></p>
+        <p>Wolę nie podawać<input type="radio" name="plec" value="WoleNiePodawac"></p>
+
+        <h4>Zgody marketingowe</h4>
+
+       <p><input type="checkbox" name="zgoda1" value="tak">Zgadzam się na otrzymywanie informacji handlowych na podany adres e-mail:</p>
+       <p><input type="checkbox" name="zgoda2" value="tak">Wyrażam zgodę na przetwarzanie moich danych osobowych w celach marketingowych:</p>
+       <p><input type="checkbox" name="zgoda3" value="tak">Akceptuję regulamin i politykę prywatności:</p>
+
+      <input type="submit" value="Zapisz mnie" id="PrzyciskSubmit">
+      </form>
+    </aside>
+    <section>
+      <p></p>
+    </section>    
+</main>
+</body>
+</html>

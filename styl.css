@@ -1,0 +1,23 @@
+*{
+ font-family: sans-serif;
+  
+}
+
+#title{
+  text-align: center;
+  margin-top: 20px;
+}
+
+form{
+  margin-top: 60px;
+  margin-left: 40px;
+  
+}
+
+#PrzyciskSubmit{
+  height: 30px;
+  width: 120px;
+  background-color: steelblue;
+  border-radius: 5px;
+}
+
